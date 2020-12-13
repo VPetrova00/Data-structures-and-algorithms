@@ -127,32 +127,72 @@ hackerrank\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\build
 .PHONY : hackerrank\fast
 
-hashTables\RansomeNote.obj: hashTables\RansomeNote.cpp.obj
+#=============================================================================
+# Target rules for targets named IceCreamParlor
 
-.PHONY : hashTables\RansomeNote.obj
+# Build rule for target.
+IceCreamParlor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) IceCreamParlor
+.PHONY : IceCreamParlor
+
+# fast build rule for target.
+IceCreamParlor\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IceCreamParlor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IceCreamParlor.dir\build
+.PHONY : IceCreamParlor\fast
+
+hashTables\Ice_Cream_Parlor\IceCreamParlor.obj: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
+
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.obj
 
 # target to build an object file
-hashTables\RansomeNote.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj
-.PHONY : hashTables\RansomeNote.cpp.obj
+hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IceCreamParlor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IceCreamParlor.dir\hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
 
-hashTables\RansomeNote.i: hashTables\RansomeNote.cpp.i
+hashTables\Ice_Cream_Parlor\IceCreamParlor.i: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.i
 
-.PHONY : hashTables\RansomeNote.i
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.i
 
 # target to preprocess a source file
-hashTables\RansomeNote.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.i
-.PHONY : hashTables\RansomeNote.cpp.i
+hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IceCreamParlor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IceCreamParlor.dir\hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.i
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.i
 
-hashTables\RansomeNote.s: hashTables\RansomeNote.cpp.s
+hashTables\Ice_Cream_Parlor\IceCreamParlor.s: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.s
 
-.PHONY : hashTables\RansomeNote.s
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.s
 
 # target to generate assembly for a file
-hashTables\RansomeNote.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.s
-.PHONY : hashTables\RansomeNote.cpp.s
+hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IceCreamParlor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IceCreamParlor.dir\hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.s
+.PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.s
+
+hashTables\Ransom_note\RansomNote.obj: hashTables\Ransom_note\RansomNote.cpp.obj
+
+.PHONY : hashTables\Ransom_note\RansomNote.obj
+
+# target to build an object file
+hashTables\Ransom_note\RansomNote.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj
+.PHONY : hashTables\Ransom_note\RansomNote.cpp.obj
+
+hashTables\Ransom_note\RansomNote.i: hashTables\Ransom_note\RansomNote.cpp.i
+
+.PHONY : hashTables\Ransom_note\RansomNote.i
+
+# target to preprocess a source file
+hashTables\Ransom_note\RansomNote.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.i
+.PHONY : hashTables\Ransom_note\RansomNote.cpp.i
+
+hashTables\Ransom_note\RansomNote.s: hashTables\Ransom_note\RansomNote.cpp.s
+
+.PHONY : hashTables\Ransom_note\RansomNote.s
+
+# target to generate assembly for a file
+hashTables\Ransom_note\RansomNote.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.s
+.PHONY : hashTables\Ransom_note\RansomNote.cpp.s
 
 # Help Target
 help:
@@ -162,10 +202,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... IceCreamParlor
 	@echo ... hackerrank
-	@echo ... hashTables/RansomeNote.obj
-	@echo ... hashTables/RansomeNote.i
-	@echo ... hashTables/RansomeNote.s
+	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.obj
+	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.i
+	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.s
+	@echo ... hashTables/Ransom_note/RansomNote.obj
+	@echo ... hashTables/Ransom_note/RansomNote.i
+	@echo ... hashTables/Ransom_note/RansomNote.s
 .PHONY : help
 
 

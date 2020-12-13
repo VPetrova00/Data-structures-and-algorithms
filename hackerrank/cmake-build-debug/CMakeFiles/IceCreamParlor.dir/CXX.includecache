@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/hashTables/Ice Cream Parlor/IceCreamParlor.cpp
+iostream
+-
+vector
+-
+map
+-
+unordered_map
+-
+

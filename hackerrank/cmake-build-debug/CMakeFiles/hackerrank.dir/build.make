@@ -61,33 +61,33 @@ include CMakeFiles\hackerrank.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\hackerrank.dir\flags.make
 
-CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj: CMakeFiles\hackerrank.dir\flags.make
-CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj: ..\hashTables\RansomeNote.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hackerrank.dir/hashTables/RansomeNote.cpp.obj"
+CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj: CMakeFiles\hackerrank.dir\flags.make
+CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj: "..\hashTables\Ransom note\RansomNote.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hackerrank.dir/hashTables/Ransom_note/RansomNote.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj /FdCMakeFiles\hackerrank.dir\ /FS -c "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\RansomeNote.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj /FdCMakeFiles\hackerrank.dir\ /FS -c "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\Ransom note\RansomNote.cpp"
 <<
 
-CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackerrank.dir/hashTables/RansomeNote.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\RansomeNote.cpp"
+CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackerrank.dir/hashTables/Ransom_note/RansomNote.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\Ransom note\RansomNote.cpp"
 <<
 
-CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackerrank.dir/hashTables/RansomeNote.cpp.s"
+CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackerrank.dir/hashTables/Ransom_note/RansomNote.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.s /c "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\RansomeNote.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.s /c "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\hashTables\Ransom note\RansomNote.cpp"
 <<
 
 # Object files for target hackerrank
 hackerrank_OBJECTS = \
-"CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj"
+"CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj"
 
 # External object files for target hackerrank
 hackerrank_EXTERNAL_OBJECTS =
 
-hackerrank.exe: CMakeFiles\hackerrank.dir\hashTables\RansomeNote.cpp.obj
+hackerrank.exe: CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.obj
 hackerrank.exe: CMakeFiles\hackerrank.dir\build.make
 hackerrank.exe: CMakeFiles\hackerrank.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hackerrank.exe"

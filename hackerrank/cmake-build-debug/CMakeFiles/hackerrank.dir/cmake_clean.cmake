@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hackerrank.dir/hashTables/RansomeNote.cpp.obj"
+  "CMakeFiles/hackerrank.dir/hashTables/Ransom_note/RansomNote.cpp.obj"
   "hackerrank.exe"
   "hackerrank.exe.manifest"
   "hackerrank.lib"

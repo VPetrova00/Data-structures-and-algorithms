@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/hashTables/Ransom note/RansomNote.cpp" "C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/hackerrank.dir/hashTables/Ransom_note/RansomNote.cpp.obj"
+  "C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/hashTables/Ice Cream Parlor/IceCreamParlor.cpp" "C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/IceCreamParlor.dir/hashTables/Ice_Cream_Parlor/IceCreamParlor.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
