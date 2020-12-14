@@ -154,6 +154,19 @@ IceCreamParlor\fast:
 .PHONY : IceCreamParlor\fast
 
 #=============================================================================
+# Target rules for targets named countTriplets
+
+# Build rule for target.
+countTriplets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) countTriplets
+.PHONY : countTriplets
+
+# fast build rule for target.
+countTriplets\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countTriplets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\countTriplets.dir\build
+.PHONY : countTriplets\fast
+
+#=============================================================================
 # Target rules for targets named sherlockAndAnagrams
 
 # Build rule for target.
@@ -165,6 +178,33 @@ sherlockAndAnagrams: cmake_check_build_system
 sherlockAndAnagrams\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\build
 .PHONY : sherlockAndAnagrams\fast
+
+hashTables\Count_Triplets\countTriplets.obj: hashTables\Count_Triplets\countTriplets.cpp.obj
+
+.PHONY : hashTables\Count_Triplets\countTriplets.obj
+
+# target to build an object file
+hashTables\Count_Triplets\countTriplets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countTriplets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\countTriplets.dir\hashTables\Count_Triplets\countTriplets.cpp.obj
+.PHONY : hashTables\Count_Triplets\countTriplets.cpp.obj
+
+hashTables\Count_Triplets\countTriplets.i: hashTables\Count_Triplets\countTriplets.cpp.i
+
+.PHONY : hashTables\Count_Triplets\countTriplets.i
+
+# target to preprocess a source file
+hashTables\Count_Triplets\countTriplets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countTriplets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\countTriplets.dir\hashTables\Count_Triplets\countTriplets.cpp.i
+.PHONY : hashTables\Count_Triplets\countTriplets.cpp.i
+
+hashTables\Count_Triplets\countTriplets.s: hashTables\Count_Triplets\countTriplets.cpp.s
+
+.PHONY : hashTables\Count_Triplets\countTriplets.s
+
+# target to generate assembly for a file
+hashTables\Count_Triplets\countTriplets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countTriplets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\countTriplets.dir\hashTables\Count_Triplets\countTriplets.cpp.s
+.PHONY : hashTables\Count_Triplets\countTriplets.cpp.s
 
 hashTables\Ice_Cream_Parlor\IceCreamParlor.obj: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
 
@@ -283,9 +323,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... IceCreamParlor
+	@echo ... countTriplets
 	@echo ... hackerrank
 	@echo ... sherlockAndAnagrams
 	@echo ... twoStrings
+	@echo ... hashTables/Count_Triplets/countTriplets.obj
+	@echo ... hashTables/Count_Triplets/countTriplets.i
+	@echo ... hashTables/Count_Triplets/countTriplets.s
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.obj
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.i
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.s
