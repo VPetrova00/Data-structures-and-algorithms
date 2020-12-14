@@ -153,6 +153,19 @@ IceCreamParlor\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IceCreamParlor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IceCreamParlor.dir\build
 .PHONY : IceCreamParlor\fast
 
+#=============================================================================
+# Target rules for targets named sherlockAndAnagrams
+
+# Build rule for target.
+sherlockAndAnagrams: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) sherlockAndAnagrams
+.PHONY : sherlockAndAnagrams
+
+# fast build rule for target.
+sherlockAndAnagrams\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\build
+.PHONY : sherlockAndAnagrams\fast
+
 hashTables\Ice_Cream_Parlor\IceCreamParlor.obj: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
 
 .PHONY : hashTables\Ice_Cream_Parlor\IceCreamParlor.obj
@@ -207,6 +220,33 @@ hashTables\Ransom_note\RansomNote.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.s
 .PHONY : hashTables\Ransom_note\RansomNote.cpp.s
 
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.obj: hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.obj
+
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.obj
+
+# target to build an object file
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.obj
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.obj
+
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.i: hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.i
+
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.i
+
+# target to preprocess a source file
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.i
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.i
+
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.s: hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.s
+
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.s
+
+# target to generate assembly for a file
+hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.s
+.PHONY : hashTables\Sherlock_and_Anagrams\sherlockAndAnagrams.cpp.s
+
 hashTables\Two_strings\twoStrings.obj: hashTables\Two_strings\twoStrings.cpp.obj
 
 .PHONY : hashTables\Two_strings\twoStrings.obj
@@ -244,6 +284,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... IceCreamParlor
 	@echo ... hackerrank
+	@echo ... sherlockAndAnagrams
 	@echo ... twoStrings
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.obj
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.i
@@ -251,6 +292,9 @@ help:
 	@echo ... hashTables/Ransom_note/RansomNote.obj
 	@echo ... hashTables/Ransom_note/RansomNote.i
 	@echo ... hashTables/Ransom_note/RansomNote.s
+	@echo ... hashTables/Sherlock_and_Anagrams/sherlockAndAnagrams.obj
+	@echo ... hashTables/Sherlock_and_Anagrams/sherlockAndAnagrams.i
+	@echo ... hashTables/Sherlock_and_Anagrams/sherlockAndAnagrams.s
 	@echo ... hashTables/Two_strings/twoStrings.obj
 	@echo ... hashTables/Two_strings/twoStrings.i
 	@echo ... hashTables/Two_strings/twoStrings.s

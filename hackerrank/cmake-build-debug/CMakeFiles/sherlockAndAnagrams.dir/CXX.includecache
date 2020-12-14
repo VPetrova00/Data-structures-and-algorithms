@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/hashTables/Sherlock and Anagrams/sherlockAndAnagrams.cpp
+iostream
+-
+string
+-
+map
+-
+vector
+-
+

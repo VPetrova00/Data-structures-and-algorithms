@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/twoStrings.dir/DependInfo.cmake"
   "CMakeFiles/hackerrank.dir/DependInfo.cmake"
   "CMakeFiles/IceCreamParlor.dir/DependInfo.cmake"
+  "CMakeFiles/sherlockAndAnagrams.dir/DependInfo.cmake"
   )
