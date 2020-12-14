@@ -1,4 +1,5 @@
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/twoStrings.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/hackerrank.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/IceCreamParlor.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/edit_cache.dir

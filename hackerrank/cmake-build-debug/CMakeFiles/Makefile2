@@ -57,6 +57,7 @@ CMAKE_BINARY_DIR = "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Soluti
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles\twoStrings.dir\all
 all: CMakeFiles\hackerrank.dir\all
 all: CMakeFiles\IceCreamParlor.dir\all
 
@@ -68,10 +69,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles\twoStrings.dir\clean
 clean: CMakeFiles\hackerrank.dir\clean
 clean: CMakeFiles\IceCreamParlor.dir\clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/twoStrings.dir
+
+# All Build rule for target.
+CMakeFiles\twoStrings.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target twoStrings"
+.PHONY : CMakeFiles\twoStrings.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\twoStrings.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\hackerrank\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\twoStrings.dir\rule
+
+# Convenience name for target.
+twoStrings: CMakeFiles\twoStrings.dir\rule
+
+.PHONY : twoStrings
+
+# clean rule for target.
+CMakeFiles\twoStrings.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\clean
+.PHONY : CMakeFiles\twoStrings.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/hackerrank.dir

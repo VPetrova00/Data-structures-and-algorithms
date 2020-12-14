@@ -115,6 +115,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named twoStrings
+
+# Build rule for target.
+twoStrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) twoStrings
+.PHONY : twoStrings
+
+# fast build rule for target.
+twoStrings\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\build
+.PHONY : twoStrings\fast
+
+#=============================================================================
 # Target rules for targets named hackerrank
 
 # Build rule for target.
@@ -194,6 +207,33 @@ hashTables\Ransom_note\RansomNote.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\hashTables\Ransom_note\RansomNote.cpp.s
 .PHONY : hashTables\Ransom_note\RansomNote.cpp.s
 
+hashTables\Two_strings\twoStrings.obj: hashTables\Two_strings\twoStrings.cpp.obj
+
+.PHONY : hashTables\Two_strings\twoStrings.obj
+
+# target to build an object file
+hashTables\Two_strings\twoStrings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\hashTables\Two_strings\twoStrings.cpp.obj
+.PHONY : hashTables\Two_strings\twoStrings.cpp.obj
+
+hashTables\Two_strings\twoStrings.i: hashTables\Two_strings\twoStrings.cpp.i
+
+.PHONY : hashTables\Two_strings\twoStrings.i
+
+# target to preprocess a source file
+hashTables\Two_strings\twoStrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\hashTables\Two_strings\twoStrings.cpp.i
+.PHONY : hashTables\Two_strings\twoStrings.cpp.i
+
+hashTables\Two_strings\twoStrings.s: hashTables\Two_strings\twoStrings.cpp.s
+
+.PHONY : hashTables\Two_strings\twoStrings.s
+
+# target to generate assembly for a file
+hashTables\Two_strings\twoStrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\twoStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\twoStrings.dir\hashTables\Two_strings\twoStrings.cpp.s
+.PHONY : hashTables\Two_strings\twoStrings.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,12 +244,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... IceCreamParlor
 	@echo ... hackerrank
+	@echo ... twoStrings
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.obj
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.i
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.s
 	@echo ... hashTables/Ransom_note/RansomNote.obj
 	@echo ... hashTables/Ransom_note/RansomNote.i
 	@echo ... hashTables/Ransom_note/RansomNote.s
+	@echo ... hashTables/Two_strings/twoStrings.obj
+	@echo ... hashTables/Two_strings/twoStrings.i
+	@echo ... hashTables/Two_strings/twoStrings.s
 .PHONY : help
 
 

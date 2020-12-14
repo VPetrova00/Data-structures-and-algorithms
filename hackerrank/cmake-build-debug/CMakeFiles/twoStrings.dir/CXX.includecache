@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/hashTables/Two strings/twoStrings.cpp
+iostream
+-
+string
+-
+unordered_set
+-
+
