@@ -166,6 +166,19 @@ correctiveArrangement\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\correctiveArrangement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\correctiveArrangement.dir\build
 .PHONY : correctiveArrangement\fast
 
+#=============================================================================
+# Target rules for targets named removingEdges
+
+# Build rule for target.
+removingEdges: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) removingEdges
+.PHONY : removingEdges
+
+# fast build rule for target.
+removingEdges\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\build
+.PHONY : removingEdges\fast
+
 01.test\repeatingNumbers.obj: 01.test\repeatingNumbers.cpp.obj
 
 .PHONY : 01.test\repeatingNumbers.obj
@@ -274,6 +287,33 @@ correctiveArrangement\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lottery.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lottery.dir\02.test\lottery.cpp.s
 .PHONY : 02.test\lottery.cpp.s
 
+11.test\removingEdges.obj: 11.test\removingEdges.cpp.obj
+
+.PHONY : 11.test\removingEdges.obj
+
+# target to build an object file
+11.test\removingEdges.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\11.test\removingEdges.cpp.obj
+.PHONY : 11.test\removingEdges.cpp.obj
+
+11.test\removingEdges.i: 11.test\removingEdges.cpp.i
+
+.PHONY : 11.test\removingEdges.i
+
+# target to preprocess a source file
+11.test\removingEdges.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\11.test\removingEdges.cpp.i
+.PHONY : 11.test\removingEdges.cpp.i
+
+11.test\removingEdges.s: 11.test\removingEdges.cpp.s
+
+.PHONY : 11.test\removingEdges.s
+
+# target to generate assembly for a file
+11.test\removingEdges.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\11.test\removingEdges.cpp.s
+.PHONY : 11.test\removingEdges.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -285,6 +325,7 @@ help:
 	@echo ... correctiveArrangement
 	@echo ... efficiency
 	@echo ... lottery
+	@echo ... removingEdges
 	@echo ... repeatingNumbers
 	@echo ... 01.test/repeatingNumbers.obj
 	@echo ... 01.test/repeatingNumbers.i
@@ -298,6 +339,9 @@ help:
 	@echo ... 02.test/lottery.obj
 	@echo ... 02.test/lottery.i
 	@echo ... 02.test/lottery.s
+	@echo ... 11.test/removingEdges.obj
+	@echo ... 11.test/removingEdges.i
+	@echo ... 11.test/removingEdges.s
 .PHONY : help
 
 

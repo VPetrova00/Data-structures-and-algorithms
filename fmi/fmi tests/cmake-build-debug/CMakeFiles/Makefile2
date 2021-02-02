@@ -61,6 +61,7 @@ all: CMakeFiles\efficiency.dir\all
 all: CMakeFiles\repeatingNumbers.dir\all
 all: CMakeFiles\lottery.dir\all
 all: CMakeFiles\correctiveArrangement.dir\all
+all: CMakeFiles\removingEdges.dir\all
 
 .PHONY : all
 
@@ -74,6 +75,7 @@ clean: CMakeFiles\efficiency.dir\clean
 clean: CMakeFiles\repeatingNumbers.dir\clean
 clean: CMakeFiles\lottery.dir\clean
 clean: CMakeFiles\correctiveArrangement.dir\clean
+clean: CMakeFiles\removingEdges.dir\clean
 
 .PHONY : clean
 
@@ -111,7 +113,7 @@ CMakeFiles\efficiency.dir\clean:
 CMakeFiles\repeatingNumbers.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeatingNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\repeatingNumbers.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeatingNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\repeatingNumbers.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target repeatingNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target repeatingNumbers"
 .PHONY : CMakeFiles\repeatingNumbers.dir\all
 
 # Build rule for subdir invocation for target.
@@ -184,6 +186,33 @@ correctiveArrangement: CMakeFiles\correctiveArrangement.dir\rule
 CMakeFiles\correctiveArrangement.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\correctiveArrangement.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\correctiveArrangement.dir\clean
 .PHONY : CMakeFiles\correctiveArrangement.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/removingEdges.dir
+
+# All Build rule for target.
+CMakeFiles\removingEdges.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target removingEdges"
+.PHONY : CMakeFiles\removingEdges.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\removingEdges.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\removingEdges.dir\rule
+
+# Convenience name for target.
+removingEdges: CMakeFiles\removingEdges.dir\rule
+
+.PHONY : removingEdges
+
+# clean rule for target.
+CMakeFiles\removingEdges.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\clean
+.PHONY : CMakeFiles\removingEdges.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
