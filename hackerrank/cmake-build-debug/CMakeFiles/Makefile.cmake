@@ -52,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/IceCreamParlor.dir/DependInfo.cmake"
   "CMakeFiles/countTriplets.dir/DependInfo.cmake"
   "CMakeFiles/sherlockAndAnagrams.dir/DependInfo.cmake"
+  "CMakeFiles/frequencyQueries.dir/DependInfo.cmake"
   )

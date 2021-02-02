@@ -4,4 +4,5 @@ C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hacker
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/IceCreamParlor.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/countTriplets.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/sherlockAndAnagrams.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/frequencyQueries.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/hackerrank/cmake-build-debug/CMakeFiles/edit_cache.dir

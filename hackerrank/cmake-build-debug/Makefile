@@ -179,6 +179,19 @@ sherlockAndAnagrams\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sherlockAndAnagrams.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sherlockAndAnagrams.dir\build
 .PHONY : sherlockAndAnagrams\fast
 
+#=============================================================================
+# Target rules for targets named frequencyQueries
+
+# Build rule for target.
+frequencyQueries: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) frequencyQueries
+.PHONY : frequencyQueries
+
+# fast build rule for target.
+frequencyQueries\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\frequencyQueries.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frequencyQueries.dir\build
+.PHONY : frequencyQueries\fast
+
 hashTables\Count_Triplets\countTriplets.obj: hashTables\Count_Triplets\countTriplets.cpp.obj
 
 .PHONY : hashTables\Count_Triplets\countTriplets.obj
@@ -205,6 +218,33 @@ hashTables\Count_Triplets\countTriplets.s: hashTables\Count_Triplets\countTriple
 hashTables\Count_Triplets\countTriplets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\countTriplets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\countTriplets.dir\hashTables\Count_Triplets\countTriplets.cpp.s
 .PHONY : hashTables\Count_Triplets\countTriplets.cpp.s
+
+hashTables\Frequency_Queries\frequencyQueries.obj: hashTables\Frequency_Queries\frequencyQueries.cpp.obj
+
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.obj
+
+# target to build an object file
+hashTables\Frequency_Queries\frequencyQueries.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\frequencyQueries.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frequencyQueries.dir\hashTables\Frequency_Queries\frequencyQueries.cpp.obj
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.cpp.obj
+
+hashTables\Frequency_Queries\frequencyQueries.i: hashTables\Frequency_Queries\frequencyQueries.cpp.i
+
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.i
+
+# target to preprocess a source file
+hashTables\Frequency_Queries\frequencyQueries.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\frequencyQueries.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frequencyQueries.dir\hashTables\Frequency_Queries\frequencyQueries.cpp.i
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.cpp.i
+
+hashTables\Frequency_Queries\frequencyQueries.s: hashTables\Frequency_Queries\frequencyQueries.cpp.s
+
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.s
+
+# target to generate assembly for a file
+hashTables\Frequency_Queries\frequencyQueries.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\frequencyQueries.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frequencyQueries.dir\hashTables\Frequency_Queries\frequencyQueries.cpp.s
+.PHONY : hashTables\Frequency_Queries\frequencyQueries.cpp.s
 
 hashTables\Ice_Cream_Parlor\IceCreamParlor.obj: hashTables\Ice_Cream_Parlor\IceCreamParlor.cpp.obj
 
@@ -324,12 +364,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... IceCreamParlor
 	@echo ... countTriplets
+	@echo ... frequencyQueries
 	@echo ... hackerrank
 	@echo ... sherlockAndAnagrams
 	@echo ... twoStrings
 	@echo ... hashTables/Count_Triplets/countTriplets.obj
 	@echo ... hashTables/Count_Triplets/countTriplets.i
 	@echo ... hashTables/Count_Triplets/countTriplets.s
+	@echo ... hashTables/Frequency_Queries/frequencyQueries.obj
+	@echo ... hashTables/Frequency_Queries/frequencyQueries.i
+	@echo ... hashTables/Frequency_Queries/frequencyQueries.s
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.obj
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.i
 	@echo ... hashTables/Ice_Cream_Parlor/IceCreamParlor.s
