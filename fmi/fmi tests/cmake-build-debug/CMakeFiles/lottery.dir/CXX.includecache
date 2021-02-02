@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/02.test/lottery.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

@@ -1,0 +1,6 @@
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/efficiency.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/repeatingNumbers.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/lottery.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/correctiveArrangement.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir
