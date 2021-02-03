@@ -179,6 +179,19 @@ removingEdges\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\build
 .PHONY : removingEdges\fast
 
+#=============================================================================
+# Target rules for targets named superstitions
+
+# Build rule for target.
+superstitions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) superstitions
+.PHONY : superstitions
+
+# fast build rule for target.
+superstitions\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\build
+.PHONY : superstitions\fast
+
 01.test\repeatingNumbers.obj: 01.test\repeatingNumbers.cpp.obj
 
 .PHONY : 01.test\repeatingNumbers.obj
@@ -314,6 +327,33 @@ removingEdges\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\11.test\removingEdges.cpp.s
 .PHONY : 11.test\removingEdges.cpp.s
 
+12.test\superstitions.obj: 12.test\superstitions.cpp.obj
+
+.PHONY : 12.test\superstitions.obj
+
+# target to build an object file
+12.test\superstitions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\12.test\superstitions.cpp.obj
+.PHONY : 12.test\superstitions.cpp.obj
+
+12.test\superstitions.i: 12.test\superstitions.cpp.i
+
+.PHONY : 12.test\superstitions.i
+
+# target to preprocess a source file
+12.test\superstitions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\12.test\superstitions.cpp.i
+.PHONY : 12.test\superstitions.cpp.i
+
+12.test\superstitions.s: 12.test\superstitions.cpp.s
+
+.PHONY : 12.test\superstitions.s
+
+# target to generate assembly for a file
+12.test\superstitions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\12.test\superstitions.cpp.s
+.PHONY : 12.test\superstitions.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -327,6 +367,7 @@ help:
 	@echo ... lottery
 	@echo ... removingEdges
 	@echo ... repeatingNumbers
+	@echo ... superstitions
 	@echo ... 01.test/repeatingNumbers.obj
 	@echo ... 01.test/repeatingNumbers.i
 	@echo ... 01.test/repeatingNumbers.s
@@ -342,6 +383,9 @@ help:
 	@echo ... 11.test/removingEdges.obj
 	@echo ... 11.test/removingEdges.i
 	@echo ... 11.test/removingEdges.s
+	@echo ... 12.test/superstitions.obj
+	@echo ... 12.test/superstitions.i
+	@echo ... 12.test/superstitions.s
 .PHONY : help
 
 

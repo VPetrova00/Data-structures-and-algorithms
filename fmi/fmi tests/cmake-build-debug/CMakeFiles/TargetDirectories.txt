@@ -4,4 +4,5 @@ C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fm
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/lottery.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/correctiveArrangement.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/removingEdges.dir
+C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/superstitions.dir
 C:/Users/Vesela/Documents/Second year - 2020-2021/sda/Solutions in Github/fmi/fmi tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir

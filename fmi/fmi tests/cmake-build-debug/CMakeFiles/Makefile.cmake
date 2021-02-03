@@ -52,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lottery.dir/DependInfo.cmake"
   "CMakeFiles/correctiveArrangement.dir/DependInfo.cmake"
   "CMakeFiles/removingEdges.dir/DependInfo.cmake"
+  "CMakeFiles/superstitions.dir/DependInfo.cmake"
   )

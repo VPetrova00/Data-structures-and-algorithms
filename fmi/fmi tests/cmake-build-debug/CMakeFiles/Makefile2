@@ -62,6 +62,7 @@ all: CMakeFiles\repeatingNumbers.dir\all
 all: CMakeFiles\lottery.dir\all
 all: CMakeFiles\correctiveArrangement.dir\all
 all: CMakeFiles\removingEdges.dir\all
+all: CMakeFiles\superstitions.dir\all
 
 .PHONY : all
 
@@ -76,6 +77,7 @@ clean: CMakeFiles\repeatingNumbers.dir\clean
 clean: CMakeFiles\lottery.dir\clean
 clean: CMakeFiles\correctiveArrangement.dir\clean
 clean: CMakeFiles\removingEdges.dir\clean
+clean: CMakeFiles\superstitions.dir\clean
 
 .PHONY : clean
 
@@ -213,6 +215,33 @@ removingEdges: CMakeFiles\removingEdges.dir\rule
 CMakeFiles\removingEdges.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\removingEdges.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\removingEdges.dir\clean
 .PHONY : CMakeFiles\removingEdges.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/superstitions.dir
+
+# All Build rule for target.
+CMakeFiles\superstitions.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target superstitions"
+.PHONY : CMakeFiles\superstitions.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\superstitions.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Vesela\Documents\Second year - 2020-2021\sda\Solutions in Github\fmi\fmi tests\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\superstitions.dir\rule
+
+# Convenience name for target.
+superstitions: CMakeFiles\superstitions.dir\rule
+
+.PHONY : superstitions
+
+# clean rule for target.
+CMakeFiles\superstitions.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\superstitions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\superstitions.dir\clean
+.PHONY : CMakeFiles\superstitions.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
